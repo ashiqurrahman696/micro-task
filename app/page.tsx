@@ -152,7 +152,7 @@ export default function HomePage() {
 
       {/* EXTRA 1: HOW IT WORKS */}
       <section id="how" className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
-        <p className="text-center text-xs font-bold uppercase tracking-widest text-emerald-600">Extra · How it works</p>
+        <p className="text-center text-xs font-bold uppercase tracking-widest text-emerald-600">How it works</p>
         <h2 className="mt-1 text-center text-2xl font-extrabold sm:text-3xl">From task to payout in 3 steps</h2>
         <div className="mt-8 grid gap-4 md:grid-cols-3">
           {[
@@ -173,7 +173,7 @@ export default function HomePage() {
       <section className="bg-slate-950 text-white">
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 sm:px-6 md:grid-cols-2">
           <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-emerald-400">Extra · Why MicroTask</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-emerald-400">Why MicroTask</p>
             <h2 className="mt-1 text-2xl font-extrabold sm:text-3xl">Real math, real money</h2>
             <div className="mt-6 grid grid-cols-3 gap-3">
               {[["12k+", "Tasks done"], ["4.9/5", "Avg rating"], ["$28k", "Paid out"]].map(([v, l]) => (
