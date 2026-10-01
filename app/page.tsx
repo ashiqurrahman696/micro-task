@@ -218,7 +218,7 @@ export default function HomePage() {
       <section id="faq" className="border-t border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950">
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 sm:px-6 md:grid-cols-2">
           <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-emerald-600">Extra · FAQ</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-emerald-600">FAQ</p>
             <h2 className="mt-1 text-2xl font-extrabold">Questions, answered</h2>
             <div className="mt-4 space-y-3">
               {FAQS.map((f) => (
